@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/status', (req, res) => {
-  res.send("Service is healthy and updated. Hello AI ✅");
+  res.send("Service is healthy and updated. Hello AI_DEVOPS ✅");
 });
 
 app.listen(port, () => {
